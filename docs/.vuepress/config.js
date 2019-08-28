@@ -2,7 +2,7 @@ module.exports = {
     title: 'Kelly\'s blog',
     description: '我的个人网站',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
-      ['link', { rel: 'manifest', href: '/photo.jpg' }],
+      ['link', { rel: 'manifest', href: '' }],
       ['link', { rel: 'icon', href: '/photo.jpg' }],
     ],   
     serviceWorker: true, // 是否开启 PWA 
